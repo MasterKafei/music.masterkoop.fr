@@ -1,0 +1,11 @@
+app_user_authentication_authenticate:
+    path: /authenticate
+    defaults: { _controller: 'AppBundle:User/Authentication:authenticate' }
+
+app_user_authentication_check:
+    path: /check
+    defaults: { _controller: 'AppBundle:User/Authentication:check' }
+
+app_user_authentication_logout:
+    path: /logout
+    defaults: { _controller: 'AppBundle:User/Authentication:logout' }

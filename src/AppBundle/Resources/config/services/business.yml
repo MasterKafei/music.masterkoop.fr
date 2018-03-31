@@ -1,0 +1,5 @@
+services:
+    app.business.user:
+        class: AppBundle\Service\Business\UserBusiness
+        parent: app.util.abstract_container_aware
+        public: true

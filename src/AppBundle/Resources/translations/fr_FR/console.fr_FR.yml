@@ -1,0 +1,4 @@
+user:
+    authentication:
+        login:
+            bad_credentials: Nom d'utilisateur ou mot de passe invalide

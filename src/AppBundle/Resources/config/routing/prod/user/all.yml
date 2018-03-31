@@ -1,0 +1,7 @@
+app_user_authentication:
+    resource: "@AppBundle/Resources/config/routing/prod/user/authentication.yml"
+    prefix: /authentication/
+
+app_user_registration:
+    resource: "@AppBundle/Resources/config/routing/prod/user/registration.yml"
+    prefix: /registration/

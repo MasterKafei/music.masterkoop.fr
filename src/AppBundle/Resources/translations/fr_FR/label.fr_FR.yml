@@ -1,0 +1,6 @@
+user:
+    username: Nom d'utilisateur
+    email: Adresse email
+    password: Mot de passe
+    repeat_password: Répéter le mot de passe
+

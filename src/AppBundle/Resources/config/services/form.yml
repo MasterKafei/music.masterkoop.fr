@@ -1,0 +1,7 @@
+services:
+    app.form.type.user.authentication.authenticate:
+        class: AppBundle\Form\Type\User\Authentication\AuthenticateType
+        public: true
+        arguments: ['@router']
+        tags:
+            - { name: form.type, alias: app_form_type_user_authentication_authenticate }
